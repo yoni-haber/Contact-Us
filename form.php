@@ -7,7 +7,7 @@ if(isset($_POST['submit']))
         $subject = $_POST['subject'];
         $message = $_POST['msg'];
  
-        //database details. You have created these details in the third step. Use your own.
+        //database details.
         $host = "localhost";
         $username = "formdb_user";
         $password = "cucumberband123";
