@@ -37,8 +37,8 @@
             </tr>
             <tr>
                 <td>
-                    <label for="msg">Your Message:</label><br>
-                    <textarea name="msg" placeholder="Type your message..." id="" cols="30" rows="10" required></textarea>
+                    <label for="message">Your Message:</label><br>
+                    <textarea name="message" placeholder="Type your message..." id="" cols="30" rows="10" required></textarea>
                 </td>
             </tr>
             <tr>

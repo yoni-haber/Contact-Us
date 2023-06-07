@@ -5,7 +5,7 @@ if(isset($_POST['submit']))
         $lastName = $_POST['lastname'];
         $email = $_POST['email'];
         $subject = $_POST['subject'];
-        $message = $_POST['msg'];
+        $message = $_POST['message'];
  
         //database details.
         $host = "localhost";
