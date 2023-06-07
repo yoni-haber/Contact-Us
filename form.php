@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['submit']))
     {
-        $firstname = $_POST['firstname'];
-        $lastname = $_POST['lastname'];
+        $firstName = $_POST['firstname'];
+        $lastName = $_POST['lastname'];
         $email = $_POST['email'];
         $subject = $_POST['subject'];
         $message = $_POST['msg'];
@@ -21,7 +21,7 @@ if(isset($_POST['submit']))
             die("Connection failed!" . mysqli_connect_error());
         }
         //This below line is a code to Send form entries to database
-        $sql = "INSERT INTO contactform_entries (firstname_fld, lastname_fld, email_fld, sub_fld, msg_fld) VALUES ('$firstname', '$lastname', '$email', '$subject', '$message')";
+        $sql = "INSERT INTO contactform_entries (first_name, last_name, email, subject, message) VALUES ('$firstName', '$lastName', '$email', '$subject', '$message')";
       //fire query to save entries and check it with if statement
         $rs = mysqli_query($con, $sql);
         if($rs)
